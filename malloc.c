@@ -51,7 +51,7 @@ int main(void)
     //store the address of the number that comes after '2'
     node *temp = n->next;
 
-    //update array
+    //update list
     n->next = malloc(sizeof(node));
     n = n->next;
 
